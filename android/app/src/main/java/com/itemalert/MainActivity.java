@@ -1,4 +1,4 @@
-package com.reactnativestarter;
+package com.itemalert;
 
 import com.reactnativenavigation.controllers.SplashActivity;
 

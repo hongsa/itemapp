@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeStarter",
+  "name": "ItemAlert",
   "version": "1.0.2",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "axios": "^0.16.1",
     "babel-jest": "^20.0.3",
     "babel-preset-react-native": "^1.9.2",
-	"eslint": "^3.9.1",
+    "eslint": "^3.9.1",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "2.2.3",
@@ -33,10 +33,11 @@
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-	"babel-jest": "^20.0.3",
-	"babel-preset-react-native": "^1.9.2",
-	"jest": "^20.0.4",
-	"react-test-renderer": "^15.5.4"
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-preset-react-native": "^1.9.2",
+    "jest": "^20.0.4",
+    "react-test-renderer": "^15.5.4"
   },
   "jest": {
     "preset": "react-native"

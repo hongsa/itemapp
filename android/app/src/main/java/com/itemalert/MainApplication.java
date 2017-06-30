@@ -1,4 +1,4 @@
-package com.reactnativestarter;
+package com.itemalert;
 
 import android.app.Application;
 import android.util.Log;

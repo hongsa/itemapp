@@ -8,11 +8,11 @@ import {
 } from 'react-native';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as moviesActions from './movies.actions';
+import * as resultsActions from './results.actions';
 
-import styles from './styles/Movies';
+import styles from './styles/Results';
 
-class Movies extends Component {
+class Results extends Component {
 	constructor(props) {
 		super(props);
 	}
@@ -24,27 +24,27 @@ class Movies extends Component {
 	render() {
 		return (
 			<View style={styles.container}>
-				<Text style={styles.welcome}>movies</Text>
+				<Text style={styles.welcome}>results</Text>
 			</View>
 		);
 	}
 }
 
-Movies.propTypes = {
+Results.propTypes = {
 	actions: PropTypes.object.isRequired,
 	nowPlayingMovies: PropTypes.object.isRequired
 };
 
 function mapStateToProps(state, ownProps) {
 	return {
-		nowPlayingMovies: state.movies.nowPlayingMovies,
+		nowPlayingMovies: state.results.nowPlayingMovies,
 	};
 }
 
 function mapDispatchToProps(dispatch) {
 	return {
-		actions: bindActionCreators(moviesActions, dispatch)
+		actions: bindActionCreators(resultsActions, dispatch)
 	};
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Movies);
+export default connect(mapStateToProps, mapDispatchToProps)(Results);
