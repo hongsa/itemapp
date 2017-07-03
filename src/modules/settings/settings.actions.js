@@ -1,6 +1,6 @@
+import axios from 'axios';
 import * as types from '../../constants/actionTypes';
 import * as api from '../../constants/api';
-import axios from 'axios';
 
 export function retrieveNowPlayingMoviesSuccess(res) {
 	return {

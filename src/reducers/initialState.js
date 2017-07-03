@@ -1,7 +1,4 @@
 export default {
-	movies: {
-		nowPlayingMovies: {}
-	},
   alerts: {
     nowPlayingMovies: {}
   },
